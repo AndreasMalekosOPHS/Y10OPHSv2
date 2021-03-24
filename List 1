@@ -1,0 +1,5 @@
+car1 = str(input("Enter a car brand >>> "))
+car2 = str(input("Enter another car brand >>> "))
+car3 = str(input("Enter another car brand >>> "))
+
+print(car1, car2, car3)
