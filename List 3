@@ -1,0 +1,16 @@
+name1 = str(input("Enter a name"))
+name2 = str(input("Enter another name"))
+name3 = str(input("Enter another name"))
+names_list = [name1, name2, name3]
+
+end = True
+
+while end == True:
+    invite = str(input("Would you like to enter another name? "))
+    if invite == "yes":
+        names_list.append(input("Enter another name "))
+
+    else:
+        invite == "no"
+        end = False
+        print(len(names_list))
