@@ -1,0 +1,18 @@
+food = []
+food1 = str(input("Enter a type of food"))
+food2 = str(input("Enter a type of food"))
+food3 = str(input("Enter a type of food"))
+food4 = str(input("Enter a type of food"))
+
+print(food1, food2, food3, food4)
+
+food.append(food1)
+food.append(food2)
+food.append(food3)
+food.append(food4)
+
+cancelled = int(input("What food would you like to delete? Choose between 0 and 3 "))
+
+del food[cancelled]
+
+print(food)
