@@ -1,0 +1,15 @@
+name1 = "Naruto"
+name2 = "One Piece"
+name3 = "Bleach"
+name4 = "Parasyte"
+show = [name1, name2, name3, name4]
+
+for i in show:
+  print(i)
+  
+new_show = str(input("Enter another show >>>> "))
+location = int(input("Enter a location between 0 and 4"))
+
+show.insert(location, new_show)
+
+print(show)
