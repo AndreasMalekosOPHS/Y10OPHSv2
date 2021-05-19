@@ -1,0 +1,20 @@
+nums = []
+num1 = int(input("Enter a number "))
+num2 = int(input("Enter a number "))
+num3 = int(input("Enter a number "))
+
+nums.append(num1)
+nums.append(num2)
+nums.append(num3)
+
+print(nums)
+
+question = str(input("Would you like to delete the last number you entered? yes or no"))
+
+if question == ("yes"):
+  del nums[2]
+  print(nums)
+  
+else:
+  question == ("no")
+  print(nums)
