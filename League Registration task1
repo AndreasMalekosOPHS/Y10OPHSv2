@@ -1,0 +1,30 @@
+print("League registration")
+
+end = True 
+
+while end == True: 
+    first_name = str(input("Enter your first name >>> "))
+    last_name = str(input("Enter your last name >>> "))
+    nickname = str(input("Enter your nickname >>> "))
+    email_address = str(input("Enter your email address >>> "))
+    skill_level = str(input("Enter a skill level - Expert OR Casual >>> "))
+ 
+    print("Please review your details")
+
+    print("First name is",first_name)
+    print("Last name is", last_name)
+    print("Nickname is", nickname)
+    print("Email address is", email_address)
+    print("Skill level is", skill_level)
+
+    details = str(input("Please confirm that these details are correct - yes or no"))
+
+    if details == ("yes"):
+        print("Many thanks")
+        print("League registration")
+        end = False
+    else:
+        details == ("no")
+        print("Please re-enter all your personal details")
+    
+
